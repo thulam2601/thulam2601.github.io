@@ -54,7 +54,7 @@ float:right;
 margin-left:20px;
 }
 header {
-background-image: url("images/coffee-beans.jpg");
+/*background-image:url(../banner.jpg);*/
 height:100px;
 margin-bottom:70px;
 }
