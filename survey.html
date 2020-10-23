@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Coffee Survey</title>
+	<link href="site/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<header style="background-image: url(media/banner.jpg)" >
+<h1>All About Coffee</h1>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="roasting.html">Roasting</a></li>
+<li><a href="grinding.html">Grinding</a></li>
+<li><a href="brewing.html">Brewing</a></li>
+<li><a href="drinks.html">Drinks</a></li>
+<li><a href="survey.html">Coffee Survey</a></li>
+</ul>
+</nav>
+</header>
+	
+<h1>Coffee Survey</h1>
+<fieldset>
+<legend>Personal Information</legend>
+<label>Your name</label>
+<br>  
+<input type="text" name="name" required="" size="40">
+<br>
+<label>Email Address</label><br>
+<input type="email" name="email" required="" placeholder="enter a valid email address" size="40">
+<br>
+</fieldset>
+<fieldset>
+<legend>Your Coffee Preferences:</legend>
+<label>Tell us your coffee preparation methods</label>
+<br>  
+<textarea name="preparation" cols="40" rows="6"></textarea> <br>
+
+<label>Do you grind your own beans?</label> <br>
+	<input type="radio" name="grind" value="Yes"> <label>Yes</label> <br>
+	<input type="radio" name="grind" value="No"> <label>No</label> <br>
+<label>How do you drink your coffee?</label><br>
+	<input type="checkbox" name="drinkwith" value="With Sugar"> <label>With Sugar</label> <br>
+	<input type="checkbox" name="drinkwith" value="With cream"> <label>With cream</label> <br>
+</fieldset>
+</body>
+</html>
