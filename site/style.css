@@ -13,23 +13,26 @@ a:link, a:visited {
 text-decoration:none;
 color:brown;
 font-weight:bold;
+	overflow: hidden;
 }
 a:hover {
 color:black;
 }
 nav ul {
 list-style-type:none;
+	overflow: hidden;
 padding:0;
 }
 nav li {
-display:inline;
+overflow: hidden;
 float:left;
 }
 nav a:link, nav a:visited {
+	float: left;
 background-color:brown;
 color:white;
 display:block;
-width:160px;
+min-width:160px;
 text-align:center;
 padding: 10px 0;
 }
@@ -37,12 +40,12 @@ nav a:hover {
 background-color:black;
 }
 aside {
-width:280px;
+width:30%;
 float:right;
 background-color: tan;
 text-align:center;
 font-weight:bold;
-padding:20px;
+padding:20px 2%;
 margin-left:20px;
 }
 .photo-left {
@@ -70,8 +73,8 @@ margin: 40px 0;
 footer nav a:link, footer nav a:visited {
 color:gray;
 text-decoration:none;
-display:block
-width:160px;
+display:block;
+width: 160px;
 text-align:center;
 background-color:white;
 }
@@ -93,4 +96,15 @@ margin-left: 160px;
 -webkit-filter: grayscale(100%);
 -moz-filter: grayscale(100%);
 filter: grayscale(100%);
+}
+@media screen and (max-width: 375px){
+	
+	h1{
+		color: blue;
+			}
+	
+	aside{
+		float: none;
+		
+	}
 }
