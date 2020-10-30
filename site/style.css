@@ -132,6 +132,39 @@ filter: grayscale(100%);
 .mxh{
 	margin: 10px;
 }
+.body1{
+	margin: 0 auto;	
+	
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+	margin: 0;
+	padding: 0;
+}
+.row p{
+	float: left;
+}
+
+
+
+
+
+
+
+
+.bounce{
+	color: white;
+	
+}
+:root {
+  animate-delay: 0.5s;
+}
+
 
 
 
