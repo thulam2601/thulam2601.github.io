@@ -13,6 +13,8 @@
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	
+<!--	hieu ung chu 	-->
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 	<head>
   <link
     rel="stylesheet"
@@ -22,7 +24,18 @@
 <body>
 	<section class="home" >
         <div class="home-content">
-            <h1>I'm <span class="element">ABC</span></h1>
+            <h1 >I'm <span class="element" id="tieude1">ABC</span></h1>
+			<script>
+				var typed2 = new Typed('#tieude1', {
+    			strings: ['Thu Lam', 'a Designer'],
+    			typeSpeed: 0,
+				backSpeed: 0,
+    			fadeOut: true,
+				loop: true
+  });
+    
+    
+    </script>
 		
             <div class="social">
                 <a><i class="fa fa-facebook-square mxh" aria-hidden="true"></i></a>
