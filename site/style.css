@@ -108,9 +108,9 @@ filter: grayscale(100%);
 }
 */
 .home {
-	background: url(../media/home.jpg);
-	width: 100%;
-	height: 912px;
+	background: url("../media/home---Copy.png");
+	width: 1920;
+	height: 500px;
 	
     
 }
@@ -121,7 +121,7 @@ filter: grayscale(100%);
 	text-align: center;
 	color: white;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	
+	padding-top: 180px;
 	margin-bottom: 20px;	
 }
 .social{
@@ -139,23 +139,32 @@ filter: grayscale(100%);
 .container {
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
+	margin-top: 100px;
+	width: 1920px;
+	data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
 }
 .row{
 	margin: 0 auto;
 
 }
 .row img{
+/*	margin-top: 100px;*/
+	margin-left: 500px;
 	width: 300px;
 	height: 100%;
 	float: left;
 }
 .row p{
+	margin-left: 200px;
+/*	margin-top: 100px;*/
 	width: 300px;
 	float: left;
 	text-align: justify;
 }
+
 
 
 
@@ -175,8 +184,12 @@ filter: grayscale(100%);
 .row1{
 	float: left;
 }
-
-
+.clear{
+	clear: both;
+}
+.container what-can{
+	float: none;
+}
 
 
 
