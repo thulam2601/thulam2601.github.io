@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+}
+.Navbar-Panel {
+  width: 1400px;
+  height: 72px;
+  margin: 0 auto;
+  padding: 0 0;
+  background-color: #000000;
+}
+
+
+#menu {
+	margin: 0 auto;
+	padding-top: 25px;
+  width: 800px;
+/*  height: 15px;*/
+/*  margin: 18px 41px 2px 247px;*/
+/*  padding: 5px 491px 4px 51px;*/
+  float: right;	
+  font-family: "Raleway";
+  font-size: 19px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align:left;
+  color: #FFFFFF;
+/* padding-left: 100px*/
+}
+#menu ul li{
+	display:inline;
+	padding-right: 30px ;
+   font-weight: bold;
+}
+
+
+.Layer-0 {
+  width: 79px;
+  height: 27px;
+  margin: 25px 0 0 0;
+	padding-left: 25px;
+}
+.image {
+  width: 1400px;
+  height: 713px;
+  padding: 0;
+  opacity: 95%;
+	margin-top: 0;
+background-image: url(../media/u2_state0.png)
+}
+
+.Logoaxit {
+  width: 512px;
+  height: 70px;
+  margin: 0px 534px 36px 354px;
+	padding-top: 100px;
+  
+	
+}
+.MODERN-AXURE-TEMPLATE-FOR-BEAUTIFUL-PROTOTYPES {
+  width: 512px;
+  height: 70px;
+  margin: 33px 534px 36px 354px;
+  font-family:Raleway;
+  font-size: 35px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.divider_white_u72 {
+  width: 74px;
+  height: 16px;
+  margin: 36px 975px 30px 351px;
+	border-bottom: solid#FFFFFF;
+}
+.Lorem{
+  width: 461px;
+  height: 61px;
+  margin: 30px 585px 44px 354px;
+  opacity: 0.8;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.8);
+}
+.Download-Button {
+  width: 135px;
+  height: 42px;
+  margin: 44px 910px 0 355px;
+  padding: 15px 32px 14px;
+  border: solid #FFFFFF;
+background: no-repeat;
+}
+.Download {
+  width: 71px;
+  height: 13px;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.Brand-Panel {
+  width: 1400px;
+  height: 105px;
+/*  margin: 713px 0 0;*/
+  margin: 0 auto;
+  padding: 22px 167px 22px 152px;
+  box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.38);
+  background-color: #ffffff;
+}
+.Social-Media {
+  width: 122px;
+  height: 17px;
+  margin: 0 325px 12px 0;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+	
+}
+.Lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-Aenea {
+  width: 360px;
+  height: 32px;
+  margin: 12px 87px 0 0;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #86878b;
+	float: left;
+}
+
+.Social-Media-Icons {
+  width: 634px;
+  height: 46px;
+  margin: 7px 0 8px 87px;
+  font-family: FontAwesome;
+  font-size: 48px;
+  
+  text-align: left;
+  color: #cccccc;
+	float: left;
+}
+.Social-Media-Icons i{
+	padding-left: 30px;
+}
+
+.Features-Panel-2 {
+  width: 1400px;
+  height: 596px;
+  margin: 595px 0 0;
+  padding: 107px 168px 110px 116px;
+  background-color: #ffffff;
+}
+.Features-Panel-2 img{
+	
+  width: 525px;
+  height: 375px;
+  margin: 4px 157px 0 0;
+
+}
+
+.Sub-list-section {
+  width: 149px;
+/*  height: 17px;*/
+	margin: 0 285px 29px 157px;
+	float: left;
+}
+.sub-title{
+	font-family: OpenSans;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.15;
+  letter-spacing: normal;
+  text-align: center;
+  color: #212121;
+	float: left;
+}
