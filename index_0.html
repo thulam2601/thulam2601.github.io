@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Demo</title>
+</head>
+	<link href="site/style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="icon-fonts/font-awesome-4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="icon-fonts/essential-regular-fonts/essential-icons.css" />
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	
+<!--	hieu ung chu 	-->
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+	<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<!--		hiệu ứng phần container-->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		
+<!--		roll on top-->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+		
+</head>
+<body>
+	<section class="home" >
+		<button id="movetop" onClick="topFunction()">
+<!--	<i class="fa fa-caret-up"></i>-->
+			<i class="fa fa-angle-double-up"></i>
+		</button>
+		<script>
+				window.onscroll = function () {
+					scrollFunction()
+				};
+
+				function scrollFunction() {
+					if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+						document.getElementById("movetop").style.display = "block";
+					} else {
+						document.getElementById("movetop").style.display = "none";
+					}
+				}
+
+								function topFunction() {
+					document.body.scrollTop = 0;
+					document.documentElement.scrollTop = 0;
+				}
+			</script>
+
+        <div class="home-content">
+            <h1 >I'm <span class="element" id="tieude1">ABC</span></h1>
+			<script>
+				var typed2 = new Typed('#tieude1', {
+    			strings: ['Thu Lam', 'a Designer'],
+    			typeSpeed: 0,
+				backSpeed: 0,
+    			fadeOut: true,
+				loop: true
+  });
+    
+    
+    </script>
+		
+            <div class="social">
+                <a><i class="fa fa-facebook-square mxh" aria-hidden="true"></i></a>
+				<a><i class="fa fa-whatsapp mxh" aria-hidden="true"></i></a>
+				<a><i class="fa fa-pinterest mxh" aria-hidden="true"></i></a>
+				<a><i class="fa fa-github-square mxh" aria-hidden="true"></i></a>
+				<a><i class="fa fa-wordpress mxh" aria-hidden="true"></i></a>
+            </div >
+			<div class="animate__animated animate__bounce animate__faster"><a><em class="fa fa-angle-down"  ></em></a></div></div>
+            
+    </section>
+	<div class="container" >
+		<script>
+  
+</script>
+
+		<div class="row">
+			
+			<img src="media/images.png" >
+			<p>Impossible considered invitation him men instrument saw celebrated unpleasant. Put rest and must set kind next many near nay. He exquisite continued explained middleton am. Voice hours young woody has she think equal. Estate moment he at on wonder at season little. Six garden result summer set family esteem nay estate.
+
+Her extensive perceived may any sincerity extremity. Indeed add rather may pretty see. Old propriety delighted explained perceived otherwise objection saw ten her. Doubt merit sir the right these alone keeps. By sometimes intention smallness he northward.</p>
+			<div class="clear"></div>
+		</div>
+		
+	
+	</div>
+	<div class="container what-can">
+                <!-- Graphic Design -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 feature">
+                    <i data-icon="1" class="icon"></i>
+                    <h3>GRAPHIC DESIGNER</h3>
+                    <p>Her extensive perceived may any sincerity extremity. </p>
+                </div>
+                <!-- Graphic Design -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 feature">
+                    <i data-icon="C" class="icon"></i>
+                    <h3>PHOTOGRAPHY</h3>
+                    <p>Her extensive perceived may any sincerity extremity. </p>
+                </div>
+                <!-- Graphic Design -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 feature">
+                    <i data-icon="!" class="icon"></i>
+                    <h3>DEVELOPMENT</h3>
+                    <p>Her extensive perceived may any sincerity extremity. </p>
+                </div>
+                <!-- Graphic Design -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 feature">
+                    <i data-icon="#" class="icon"></i>
+                    <h3>CUSTOMIZATION</h3>
+                    <p>Her extensive perceived may any sincerity extremity. </p>
+                </div>
+            </div>
+</body>
+</html>
