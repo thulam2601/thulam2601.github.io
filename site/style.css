@@ -210,8 +210,8 @@ img {
 .Background4 {
   width: 372px;
   height: 350px;
-  margin: 650px 27px 78px 30;
-  padding: 0px 78px 40px 28px;
+  margin: 650px 27px 78px 200px;
+/*  padding: 0px 78px 40px 30px;*/
   box-shadow: -0.3px 5px 24px 0 rgba(0, 0, 0, 0.09);
   background-color: #ffffff;
 	border-radius: 10px;
