@@ -183,7 +183,7 @@ img {
 
 .Bg2 {
   width: 363px;
-  height: 504px;
+  height: 350px;
   margin: 0 0px 28px 31px;
   padding: 74px 0px 172px 33px;
   box-shadow: -0.3px 5px 24px 0 rgba(0, 0, 0, 0.09);
@@ -193,7 +193,7 @@ img {
 }
 .Bg3 {
   width: 363px;
-  height: 504px;
+  height: 425px;
   margin: 0 34px 28px 0px;
   margin-top: 0;
   padding: 0px 53px 172px 0px;
@@ -209,8 +209,8 @@ img {
 }
 .Background4 {
   width: 372px;
-  height: 494px;
-  margin: 700px 27px 78px 0;
+  height: 350px;
+  margin: 650px 27px 78px 30;
   padding: 0px 78px 40px 28px;
   box-shadow: -0.3px 5px 24px 0 rgba(0, 0, 0, 0.09);
   background-color: #ffffff;
