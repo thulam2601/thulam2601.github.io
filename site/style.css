@@ -8,12 +8,13 @@
 }
 .Over {
   width: 1920px;
-  height:900px;
+  height:1000px;
   margin: 0 auto;
 /*  padding: 66px 866px 160px 104px;*/
 /*  opacity: 0.04;*/
   background-color: #efedf4;
 }
+/*.Over img*/
 #menu {
 	margin: 0 auto;
 	margin-top: 20px;
@@ -36,7 +37,7 @@
 }
 #menu ul li{
 	display:inline;
-	padding-right: 30px ;
+	padding-left: 50px ;
    font-weight: bold;
 }
 
@@ -56,8 +57,9 @@ opacity: 50%;
   padding: 1085px 809px 211px 839px;
 }
 
-img {
+.img {
 	margin-top: 50px;
+	padding-left: 200px;
   width: 885.1px;
   height: 605.9px;
 	float: left;
@@ -77,7 +79,7 @@ img {
 
 .Bg {
   width: 1920px;
-  height: 1465px;
+  height: 3500px;
   margin: 0 auto;
  padding-top: 50px;
   box-shadow: -0.3px 5px 46px 0 rgba(0, 0, 0, 0.03);
@@ -558,3 +560,62 @@ padding-bottom: 10px;
 .box{
 /*	padding-left: 30px;	*/
 }
+.menuphu{
+	width: 1920px;
+	height: auto;
+	float: none;
+	background: #FFFAFA;
+	box-shadow: -0.9px 13px 27px 0 rgba(0, 0, 0, 0.18);
+	margin: 0 auto;
+	
+}
+#menuphu {
+	margin: 0 auto;
+	margin-top: 20px;
+/*	padding-top: 25px;*/
+  width: 800px;
+/*  height: 15px;*/
+/*  margin: 18px 41px 2px 247px;*/
+/*  padding: 5px 491px 4px 51px;*/
+  float: none;	
+  font-family: "Raleway";
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align:center;
+  color: #000000;
+/* padding-left: 100px*/
+}
+#menuphu ul li{
+	display:inline;
+	padding-left: 50px ;
+   font-weight: bold;
+}
+
+.Copyright {
+  width: 1920px;
+  height: 16px;
+  margin: 13px 75px 0 473px;
+  font-family: FontAwesome5Free;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 0.88px;
+/*  text-align: left;*/
+
+  color: #777777;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+.Copyright img{
+	
+	width: 100%;
+	height: auto;
+}
+
